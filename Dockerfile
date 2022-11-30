@@ -1,4 +1,7 @@
-FROM openjdk:19-jdk-alpine
-ARG JAR_FILE=target/JavaAPI-0.0.1-SNAPSHOT.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+FROM maven:3.8.2-jdk-8
+
+WORKDIR /app
+COPY . .
+RUN mvn clean install
+
+CMD mvn spring-boot:run
