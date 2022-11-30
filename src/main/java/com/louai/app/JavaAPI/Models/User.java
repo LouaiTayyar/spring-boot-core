@@ -3,7 +3,9 @@ package com.louai.app.JavaAPI.Models;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
+@Table(name = "user")
 @Entity
 public class User {
     @Id
