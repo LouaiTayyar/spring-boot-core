@@ -1,6 +1,5 @@
 # spring-boot-core
 
-Project to have a strong Spring Boot core
 
 Spring Boot REST API that performs CRUD operations
 
