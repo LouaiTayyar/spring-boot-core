@@ -3,4 +3,14 @@
 
 Spring Boot REST API that performs CRUD operations
 
-Tools: OpenJDK. Maven. Spring Boot. Spring Framework. Spring Data JPA. MYSQL. Docker. Docker Compose. Postman
+## Tools
+
+* Java
+* Maven
+* Spring Framework
+* Spring Boot
+* Spring Data JPA
+* MySQL
+* Docker
+* Docker Compose
+* Postman
